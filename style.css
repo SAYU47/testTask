@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+.header__menu{
+    display: flex;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+}
+.header__item a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}
+.header__item a:hover {
+    background-color: aqua;  
+}
+.header__logo picture>img{
+    width: 80px;
+}
